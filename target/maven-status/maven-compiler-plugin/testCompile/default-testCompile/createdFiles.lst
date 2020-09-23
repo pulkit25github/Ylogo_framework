@@ -1,0 +1,7 @@
+com\ylogo\testcases\TC01_Login_ylogo.class
+com\ylogo\testcases\TC02_Login_ylogo_DDT.class
+com\ylogo\utilities\ReadConfig_ylogo.class
+com\ylogo\utilities\Reporting_ylogo.class
+com\ylogo\testcases\BaseClass_ylogo.class
+com\ylogo\pages\Login_Page_ylogo.class
+com\ylogo\utilities\XLUtils_ylogo.class

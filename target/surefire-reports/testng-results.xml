@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="YourLogo_Framework" duration-ms="22818" started-at="2020-09-23T10:47:53Z" finished-at="2020-09-23T10:48:16Z">
+    <groups>
+    </groups>
+    <test name="Ylogo_demo" duration-ms="22818" started-at="2020-09-23T10:47:53Z" finished-at="2020-09-23T10:48:16Z">
+      <class name="com.ylogo.testcases.TC01_Login_ylogo">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.ylogo.testcases.TC01_Login_ylogo@b59d31]" name="Setup" is-config="true" duration-ms="13683" started-at="2020-09-23T16:17:54Z" finished-at="2020-09-23T16:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Login_ylogo_test()[pri:0, instance:com.ylogo.testcases.TC01_Login_ylogo@b59d31]" name="Login_ylogo_test" duration-ms="8788" started-at="2020-09-23T16:18:07Z" finished-at="2020-09-23T16:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_ylogo_test -->
+      </class> <!-- com.ylogo.testcases.TC01_Login_ylogo -->
+    </test> <!-- Ylogo_demo -->
+  </suite> <!-- YourLogo_Framework -->
+</testng-results>

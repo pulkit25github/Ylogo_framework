@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YourLogo_Framework]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.ylogo.utilities.Reporting_ylogo"/>
+  </listeners>
+  <test name="Ylogo_demo1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ylogo.testcases.TC02_Login_ylogo_DDT"/>
+    </classes>
+  </test> <!-- Ylogo_demo1 -->
+  <test name="Ylogo_demo1(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ylogo.testcases.TC02_Login_ylogo_DDT">
+        <methods>
+          <include name="login_ylogo_DDT" invocation-numbers="3"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.ylogo.testcases.TC02_Login_ylogo_DDT -->
+    </classes>
+  </test> <!-- Ylogo_demo1(failed) -->
+</suite> <!-- Failed suite [YourLogo_Framework] -->
